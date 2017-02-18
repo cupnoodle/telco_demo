@@ -12,7 +12,7 @@ import CoreTelephony
 
 class Telco: NSObject {
 
-	func carrierName() -> String{
+	class func carrierName() -> String{
 		
 		// Check environment variable for UI Testing
 		let envVars = ProcessInfo.processInfo.environment

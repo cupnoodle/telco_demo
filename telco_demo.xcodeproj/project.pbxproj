@@ -419,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HZA79NQ8N6;
 				INFOPLIST_FILE = telco_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sweatshop.telco-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HZA79NQ8N6;
 				INFOPLIST_FILE = telco_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sweatshop.telco-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				B3C3B3891E544D2100647898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C3B38A1E544D2100647898 /* Build configuration list for PBXNativeTarget "telco_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				B3C3B38C1E544D2100647898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C3B38D1E544D2100647898 /* Build configuration list for PBXNativeTarget "telco_demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				B3C3B38F1E544D2100647898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

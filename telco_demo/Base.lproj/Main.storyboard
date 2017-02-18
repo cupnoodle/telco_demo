@@ -21,24 +21,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UjM-87-u4P">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="asriel" translatesAutoresizingMaskIntoConstraints="NO" id="UjM-87-u4P">
                                 <rect key="frame" x="60" y="104" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="13g-0C-hxo"/>
                                     <constraint firstAttribute="height" constant="200" id="uNL-5M-MXT"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Promotion here]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bS6-ML-w94">
+                                <rect key="frame" x="84.5" y="344" width="151" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="UjM-87-u4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4t5-cB-BL0"/>
+                            <constraint firstItem="bS6-ML-w94" firstAttribute="top" secondItem="UjM-87-u4P" secondAttribute="bottom" constant="40" id="HXS-PQ-qNz"/>
                             <constraint firstItem="UjM-87-u4P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="KR5-fY-Jb8"/>
+                            <constraint firstItem="bS6-ML-w94" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XCr-L6-rbW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="promotionLabel" destination="bS6-ML-w94" id="Ief-kv-P1O"/>
+                        <outlet property="telcoImage" destination="UjM-87-u4P" id="QcU-di-7Xu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="asriel" width="200" height="200"/>
+    </resources>
 </document>
